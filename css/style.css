@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(90deg, rgba(119, 226, 235, 1) 0%, rgba(153, 0, 255, 1) 100%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.lvl {
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px rgba(165, 165, 165, 0.788);
+    width: 70px;
+}
+
+.smiley {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 4px 4px rgba(165, 165, 165, 0.788);
+    font-size: 20px;;
+}
+
+
+.cell {
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: default;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.788)
+}
+
+.mine {
+    background-color: red !important;
+}
+
+.selected {
+    background-color: rgb(225, 255, 253);
+    text-indent: 0px !important;
+}
+
+table {
+    margin: auto;
+}
+
+footer {
+    margin: auto;
+    position: absolute;
+    top: 80%;
+}

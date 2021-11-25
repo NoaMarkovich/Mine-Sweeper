@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+
+<body onload="init()">
+    <h1>Mine Sweeper</h1>
+    <table>
+        <tr>
+            <td><button class="lvl" data-inside="beginner" onclick="getdifficulty(this)">Beginner</button>
+            </td>
+            <td><button class="lvl" data-inside="medium" onclick="getdifficulty(this)">Medium</button>
+            </td>
+            <td> <button class="lvl" data-inside="expert" onclick="getdifficulty(this)">Expert</button>
+            </td>
+        </tr>
+        <td id="lives"></td>
+        <td> <button class="smiley" onclick="init()">🙂</button>
+        </td>
+        <td class="timer">  <span class="minute">00</span>:<span class="second">00</span></td>
+        <tr>
+
+        </tr>
+    </table>
+
+    <div>
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+    </div>
+
+    <footer>Noa Markowitz</footer>
+    <script src="js/mineSweeper.js"></script>
+    <script src="js/utils.js"></script>
+</body>
+
+</html>
